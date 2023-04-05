@@ -84,7 +84,7 @@ function Yoga() {
           <img src="/bg.png" className={styles.img} />
         </div>
       </div>
-      <div className={styles.schedule_container}>
+      <div className={styles.schedule_container} id="schedule">
         <h1 style={{ fontWeight: 400, fontSize: "40px", marginBottom: "10px" }}>
           Schedule
         </h1>
