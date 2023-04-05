@@ -44,7 +44,7 @@ function Yoga() {
           <br />
           <p>
             My name is Himali Shah. I moved to the great nation of USA a few
-            months ago, from India(भारत). I reside in Iselin with a Green card
+            months ago, from India&#40;भारत&#41;. I reside in Iselin with a Green card
             status.
           </p>
           <p>
@@ -89,21 +89,28 @@ function Yoga() {
           Schedule
         </h1>
         <p className={styles.text}>
-          Where: online or in-person (pick up service is required if it is at
-          your home)
+          Where: online or in-person &#40;pick up service is required if it is at
+          your home&#41;
         </p>
         <p className={styles.text}>
-          Session Type: Personal (1 to 1) or a group of 4 (if ready by your
-          side)
+          Session Type: Personal &#40;1-to-1&#41; or a group of 4 &#40;if ready by your
+          side&#41;
         </p>
         <p className={styles.text}>
-          Timing of Sessions: 30 ($30 for 1-to-1) or 45 ($45 for 1-to-1 and $60
-          for a group) minutes per session
+          Timing of Sessions: 30 or 45 minutes per session
         </p>
         <p className={styles.text}>Payment Method: Card or PayPal</p>
         <p className={styles.text}>
-          Phone #: +1 (848) 318-7302 <br /> Email: himss444@gmail.com{" "}
+          Phone #: +1 &#40;848&#41; 318-7302 <br /> Email: himss444@gmail.com{" "}
         </p>
+      </div>
+      <div className={styles.payment_section}>
+        <h1 style={{ fontWeight: 400, fontSize: "40px", marginBottom: "10px" }}>
+          Payment Information
+        </h1>
+        <p className={styles.text}>Personal session - $45 for 45 minutes  /  $30 for 30 minutes</p>
+        <p className={styles.text}>Group session - $60 &#40;total&#41; for 45 minutes </p>
+        <p className={styles.text} style={{ fontWeight: 600 }}>All Payments Must Be Made Using Card or PayPal!</p>
       </div>
     </div>
   );

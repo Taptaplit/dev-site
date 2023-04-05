@@ -149,3 +149,11 @@
   margin: 20px 0px;
   font-size: 20px;
 }
+
+.payment_section {
+  background: #282828;
+  font-family: "poppins", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  padding: 100px 160px;
+}
