@@ -1,16 +1,21 @@
 import React from "react";
 import styles from "@/styles/Home.module.css";
 import Link from "next/link";
+import Head from "next/head";
 
 function Yoga() {
   return (
     <div>
+      <Head>
+        <title>Premium Yoga and Breathing Exercises</title>
+        <link rel='icon' type='image/png' href='logo.png'></link>
+      </Head>
       <div className={styles.bg}></div>
       <div className={styles.cover}></div>
       <div className={styles.container}>
         <div className={styles.header}>
           <div>
-            <p>Logo</p>
+            <img src="logo.png" className={styles.logo}/>
           </div>
           <div className={styles.grid_2}>
             <ul className={styles.header_list}>
