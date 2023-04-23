@@ -8,14 +8,12 @@ function Yoga() {
     <div>
       <Head>
         <title>Premium Yoga and Breathing Exercises</title>
-        <link rel='icon' type='image/png' href='logo.png'></link>
+        <link rel="icon" type="image/png" href="logo.png"></link>
       </Head>
-      <div className={styles.bg}></div>
-      <div className={styles.cover}></div>
       <div className={styles.container}>
         <div className={styles.header}>
           <div>
-            <img src="logo.png" className={styles.logo}/>
+            <img src="logo.jpg" className={styles.logo} />
           </div>
           <div className={styles.grid_2}>
             <ul className={styles.header_list}>
@@ -45,12 +43,18 @@ function Yoga() {
       </div>
       <div className={styles.about_section} id="about">
         <div className={styles.padding}>
+          <h1
+            style={{ fontWeight: 400, fontSize: "40px", marginBottom: "10px" }}
+          >
+            About Me
+          </h1>
+
           <span>Hi,</span>
           <br />
           <p>
             My name is Himali Shah. I moved to the great nation of USA a few
-            months ago, from India&#40;भारत&#41;. I reside in Iselin with a Green card
-            status.
+            months ago, from India&#40;भारत&#41;. I reside in Iselin with a
+            Green card status.
           </p>
           <p>
             Myself being a yoga teacher, with many official certificates and
@@ -61,7 +65,7 @@ function Yoga() {
           </p>
           <p>
             The aim is to give these gifts and joy to everyone in need and help
-            them guide a good way to move forward in life.
+            them guide a good way to move forward in life. 
           </p>
           <br />
           <p>
@@ -77,7 +81,7 @@ function Yoga() {
             <li>
               Any activity done extremely or in a non recommended way may lead
               to serious injury or damage to health. In such cases, the
-              instructor is not responsible in any way.
+              instructor is not responsible in any way. (AGES 5+)
             </li>
             <li>
               The languages used in the session will be Hindi, Gujarati and
@@ -86,7 +90,7 @@ function Yoga() {
           </ul>
         </div>
         <div className={styles.img_wrapper}>
-          <img src="/bg.png" className={styles.img} />
+          <img src="/bg-2.png" className={styles.img} />
         </div>
       </div>
       <div className={styles.schedule_container} id="schedule">
@@ -94,17 +98,16 @@ function Yoga() {
           Schedule
         </h1>
         <p className={styles.text}>
-          Where: online or in-person &#40;pick up service is required if it is at
-          your home&#41;
+          Where: online or in-person &#40;pick up service is required if it is
+          at your home&#41;
         </p>
         <p className={styles.text}>
-          Session Type: Personal &#40;1-to-1&#41; or a group of 4 &#40;if ready by your
-          side&#41;
+          Session Type: Personal &#40;1-to-1&#41; or a group of 4 &#40;if ready
+          by your side&#41;
         </p>
         <p className={styles.text}>
           Timing of Sessions: 30 or 45 minutes per session
         </p>
-        <p className={styles.text}>Payment Method: Card or PayPal</p>
         <p className={styles.text}>
           Phone #: +1 &#40;848&#41; 318-7302 <br /> Email: himss444@gmail.com{" "}
         </p>
@@ -113,9 +116,15 @@ function Yoga() {
         <h1 style={{ fontWeight: 400, fontSize: "40px", marginBottom: "10px" }}>
           Payment Information
         </h1>
-        <p className={styles.text}>Personal session - $45 for 45 minutes  /  $30 for 30 minutes</p>
-        <p className={styles.text}>Group session - $60 &#40;total&#41; for 45 minutes </p>
-        <p className={styles.text} style={{ fontWeight: 600 }}>All Payments Must Be Made Using Card or PayPal!</p>
+        <p className={styles.text}>
+          Personal session - $45 for 45 minutes / $30 for 30 minutes
+        </p>
+        <p className={styles.text}>
+          Group session - $60 &#40;total&#41; for 45 minutes{" "}
+        </p>
+        <p className={styles.text} style={{ fontWeight: 600 }}>
+          All Payments Must Be Made Using Card or PayPal!
+        </p>
       </div>
     </div>
   );
