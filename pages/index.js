@@ -13,7 +13,7 @@ function Yoga() {
       <div className={styles.container}>
         <div className={styles.header}>
           <div>
-            <img src="logo.jpg" className={styles.logo} />
+            <img src="logo.JPG" className={styles.logo} />
           </div>
           <div className={styles.grid_2}>
             <ul className={styles.header_list}>
